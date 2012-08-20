@@ -1,0 +1,45 @@
+<style>
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  nav li {
+    float: left;
+    padding: 0 10px;
+    position: relative;
+  }
+  nav li:hover ul {
+    display: block;
+  }
+  nav ul ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 1em;
+  }
+  nav li li {
+    float: none;
+  }
+</style>
+<script>
+</script>
+
+<!-- html -->
+<nav>
+  <ul>
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">About</a>
+      <ul>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Beliefs</a></li>
+      </ul>  
+    </li>
+    <li><a href="#">Portfolio</a>
+      <ul>
+        <li><a href="#">Internal Projects</a></li>
+        <li><a href="#">Client Projects</a></li>
+      </ul>  
+    </li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>

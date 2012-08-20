@@ -1,0 +1,39 @@
+<style>
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  nav li {
+  }
+  nav li ul:target {
+    display: block;
+  }
+  nav ul ul {
+    display: none;
+    margin: 0 0 0 20px;
+  }
+  nav li li {
+  }
+</style>
+<script>
+</script>
+
+<!-- html -->
+<nav>
+  <ul>
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#aboutMenu">About</a>
+      <ul id="aboutMenu">
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Beliefs</a></li>
+      </ul>  
+    </li>
+    <li><a href="#portfolioMenu">Portfolio</a>
+      <ul id="portfolioMenu">
+        <li><a href="#">Internal Projects</a></li>
+        <li><a href="#">Client Projects</a></li>
+      </ul>  
+    </li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
